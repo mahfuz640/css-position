@@ -1,3 +1,19 @@
-* {
+.container {
     display: flex;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: orangered;
+    margin: 5px;
+    text-align: center;
+}
+
+.box-2 {
+    /* this is position absulate =okhane e thakbe but jaiga nibve na . relative okhane thake jaiga change koreale 
+    jaigaa o change korbe */
+    position: relative;
+    left: 170px;
+    background-color: orange;
 }
